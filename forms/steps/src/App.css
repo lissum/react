@@ -1,0 +1,74 @@
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.workout-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.workout-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.workout-form button {
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.workout-form button[type="button"] {
+  background-color: #dc3545;
+}
+
+.workout-form button:hover {
+  opacity: 0.9;
+}
+
+.workout-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.workout-table th,
+.workout-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.workout-table th {
+  background-color: #f4f4f4;
+}
+
+.workout-table td {
+  background-color: #fff;
+}
+
+.action-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.action-btn:hover {
+  color: #007bff;
+}
