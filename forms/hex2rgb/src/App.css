@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-validator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+}
+
+.container {
+    text-align: center;
+}
+
+.hex-input {
+    font-size: 1.125rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    width: 10rem;
+    text-align: center;
+}
+
+.error-text {
+    margin-top: 0.5rem;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.rgb-text {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.3);
+}
