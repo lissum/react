@@ -1,4 +1,3 @@
-import NoteItem from "./NoteItem";
 import { useState } from "react";
 
 const NoteForm = ({ onAdd }) => {
